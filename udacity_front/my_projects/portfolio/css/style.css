@@ -1,0 +1,23 @@
+body {
+	/*TODO: update with google font and weight*/
+	font-family: sans-serif;
+	color: #747704;
+}
+
+.text-muted {
+	color: #BCBBBB;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+/*TODO: media query to center Snacks col on small devices*/
