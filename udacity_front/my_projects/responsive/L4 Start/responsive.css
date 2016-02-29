@@ -1,0 +1,55 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__menu {
+  display: none;
+}
+
+.hero, .top-news, .scores, .weather, .recent-news {
+  order: 10;
+}
+
+@media screen and (min-width: 549px) {
+  .header__logo {
+    height: 8em;
+    margin-right: 0.5em;
+  }
+  .header__title {
+    margin-left: 0;
+    font-size: 4em;
+    vertical-align: bottom; 
+  }
+
+@media screen and (min-width: 620px) {
+	.scores {
+		width: 50%
+	}
+	.weather {
+		width: 50%
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.hero {
+		width: 67%;
+	}
+	.top-news {
+		width: 33%;
+	}
+	.scores {
+		width: 50%;
+	}
+	.weather {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	body {
+		width: 900px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
